@@ -83,7 +83,7 @@ const Menu = () => {
                     )
                 })}
             </nav>
-            <div className='content'>
+            <div className='content h-full'>
                 <div className='arrows'>
                     <button className='text-left' onClick={() => goToSlide(currentIndex - 1)}>
                         <span>{prevCocktail.name}</span>
